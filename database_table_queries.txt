@@ -1,0 +1,19 @@
+CREATE TABLE users (
+    id INT IDENTITY(1,1) PRIMARY KEY,
+    username VARCHAR(255) NOT NULL,
+    email VARCHAR(255) NOT NULL,
+    firstName VARCHAR(255),
+    lastName VARCHAR(255),
+    gender VARCHAR(10),
+    image VARCHAR(255),
+    password VARCHAR(255) NOT NULL,
+);
+
+
+CREATE TABLE tokens (
+    id INT IDENTITY(1,1) PRIMARY KEY,
+    user_id INT NOT NULL,
+    token VARCHAR(255) NOT NULL,
+    created_at VARCHAR(255) DEFAULT NULL,
+    FOREIGN KEY (user_id) REFERENCES users(id)
+);

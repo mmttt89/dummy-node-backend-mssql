@@ -1,0 +1,1 @@
+exports.returnInserted = 'OUTPUT INSERTED.*, @@ROWCOUNT AS rowsAffected'
