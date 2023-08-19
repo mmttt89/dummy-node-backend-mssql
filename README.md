@@ -21,3 +21,9 @@ Clone this repository and delete the .git folder.
 2. Start using `npm i` to install the dependencies.
 3. Cope the `database_table_queries.txt` file queries into your sql query to create the tables
 4. After all, start by using `node server`.
+5. enjoy 
+
+## contribution
+
+if you want to contribute on this project and add more changes to it, simply create a branch and make a PR, 
+I would be happy to collaborate with others
