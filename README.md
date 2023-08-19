@@ -26,4 +26,4 @@ Clone this repository and delete the .git folder.
 ## contribution
 
 if you want to contribute on this project and add more changes to it, simply create a branch and make a PR, 
-I would be happy to collaborate with others
+I would be happy to collaborate with others.
